@@ -1,18 +1,5 @@
 {
-  "domain": "braun_ble_alarm_clock"
-  "name": "Braun Bluetooth Clock",
-  "version": "0.1.0",
-  "config_flow": true,
-  "dependencies": ["bluetooth_adapters"],
-  "requirements": [],
-  "bluetooth": [
-    {
-      "local_name": "Braun*",
-      "manufacturer_id": 1234,
-      "service_uuid": "0000xxxx-0000-1000-80000-00805f9b34fb"
-    }
-  ]
-  "codeowners": [gillmar]
-  "documentation": "https://github.com/gillmar/ha_ble_brownclock",
-  "issue_tracker": "https://github.com/gillmar/ha_ble_brownclock/issues"
+  "name": "ha_ble_brownclock",
+  "homeassistant": "2026.7",
+  "render_readme": true
 }
